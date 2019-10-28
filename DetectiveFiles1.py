@@ -1,6 +1,5 @@
 import time
 import win32file
-import threading
 import win32api
 import win32event
 import win32con
@@ -88,7 +87,7 @@ if __name__=="__main__":
     
     Files32.start()
     Reg.start()
-    #os.system('python filename.py')
+    #os.system('python virus.py')
     Files32.join()
     Reg.join()    
     
