@@ -1,0 +1,255 @@
+------------------------------------------------------------------------------
+pythonw.exe pid: 9844 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\Users\Admin\Pictures
+   B0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   D8: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  310: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  330: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  338: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  50C: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+pythonw.exe pid: 9652 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   B0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  218: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  220: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  228: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  308: Section       \Windows\Theme3198277880
+  330: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  354: Section       \Sessions\1\Windows\Theme491472385
+  3A0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  478: File  (R-D)   C:\Windows\Fonts\StaticCache.dat
+  510: Section       \Sessions\1\BaseNamedObjects\windows_shell_global_counters
+  518: Section       \BaseNamedObjects\__ComCatalogCache__
+  528: Section       \BaseNamedObjects\__ComCatalogCache__
+  544: File  (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui
+  554: Section       \BaseNamedObjects\windows_shell_global_counters
+  578: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  588: File  (R-D)   C:\Windows\SysWOW64\en-US\comdlg32.dll.mui
+  58C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  59C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  5D0: File  (R-D)   C:\Windows\System32\en-US\shell32.dll.mui
+  5D8: File  (R-D)   C:\Windows\SysWOW64\en-US\windows.storage.dll.mui
+  5E0: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  5E4: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000003.db
+  620: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000003.db
+  624: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  670: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  6A4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  6B0: File  (R-D)   C:\Windows\SysWOW64\en-US\propsys.dll.mui
+  6F8: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+  70C: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+  7D4: File  (R-D)   C:\Windows\System32\en-US\imageres.dll.mui
+  7E8: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+  7F0: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+  82C: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+  840: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+  8E0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  8E8: File  (R-D)   C:\Windows\System32\shell32.dll
+  95C: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+  964: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_48.db
+  988: File  (R-D)   C:\Windows\System32\en-US\mpr.dll.mui
+  9DC: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  9F0: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  A00: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db
+  AF8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+  AFC: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.864_none_7e4b6dd4762faa34
+  B50: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+  BC0: File  (R-D)   C:\Windows\System32\en-US\duser.dll.mui
+  BCC: File  (RW-)   C:\Python27
+  D64: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_48.db
+  D98: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  D9C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.864_en-us_636bc3d448436253
+  DB0: File  (R-D)   C:\Windows\WinSxS\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.17763.864_en-us_636bc3d448436253\comctl32.dll.mui
+  DDC: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  E48: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+  E58: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_48.db
+  E70: Section       \Sessions\1\BaseNamedObjects\windows_ie_global_counters
+  E90: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{8E5306AD-D77D-4502-8F1A-E501E68BD14E}.2.ver0x0000000000000003.db
+  E94: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{E70A6E0C-D6B0-47B9-BC9E-9718C0D32FF3}.2.ver0x0000000000000003.db
+  FF8: File  (R--)   C:\Windows\Registration\R000000000001.clb
+------------------------------------------------------------------------------
+pythonw.exe pid: 6588 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\Users\Admin\Desktop\virus\poc
+   B4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   BC: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   CC: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  218: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  234: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  238: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  37C: Section       \Windows\Theme3198277880
+  380: Section       \Sessions\1\Windows\Theme491472385
+  3A0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  450: File  (R-D)   C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+python.exe pid: 8616 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\Python27
+   C8: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   D4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  228: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+------------------------------------------------------------------------------
+pythonw.exe pid: 15052 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\Users\Admin\Desktop\virus\poc
+   B0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  220: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  32C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  334: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  340: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  37C: Section       \Windows\Theme3198277880
+  380: Section       \Sessions\1\Windows\Theme491472385
+  3A4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  46C: File  (R-D)   C:\Windows\Fonts\StaticCache.dat
+  548: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+pythonw.exe pid: 3444 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   B0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   BC: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  234: Section       \Windows\Theme3198277880
+  240: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  248: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  324: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  340: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  348: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  38C: Section       \Sessions\1\Windows\Theme491472385
+  46C: File  (R-D)   C:\Windows\Fonts\StaticCache.dat
+  504: Section       \Sessions\1\BaseNamedObjects\windows_shell_global_counters
+  514: Section       \BaseNamedObjects\__ComCatalogCache__
+  520: Section       \BaseNamedObjects\__ComCatalogCache__
+  550: File  (R-D)   C:\Windows\SysWOW64\en-US\comdlg32.dll.mui
+  558: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  55C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  568: File  (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui
+  56C: Section       \BaseNamedObjects\windows_shell_global_counters
+  588: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  5DC: File  (R-D)   C:\Windows\SysWOW64\en-US\windows.storage.dll.mui
+  5EC: File  (R-D)   C:\Windows\System32\en-US\shell32.dll.mui
+  618: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  61C: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000003.db
+  624: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  628: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000003.db
+  678: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  67C: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+  69C: File  (R-D)   C:\Windows\SysWOW64\en-US\propsys.dll.mui
+  6B0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  6BC: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+  75C: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_48.db
+  854: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+  868: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+  8B4: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+  910: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  954: File  (R-D)   C:\Windows\System32\shell32.dll
+  970: File  (R-D)   C:\Windows\System32\en-US\mpr.dll.mui
+  984: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  988: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_48.db
+  A9C: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+  CD0: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+  CDC: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_48.db
+  D40: File  (R--)   C:\Windows\Registration\R000000000001.clb
+  D44: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17763.864_none_7e4b6dd4762faa34
+  D98: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db
+  E24: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+  E30: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+  EA4: File  (RW-)   C:\Python27
+------------------------------------------------------------------------------
+pythonw.exe pid: 11056 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\Python27
+   B4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  214: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  328: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  32C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  330: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+------------------------------------------------------------------------------
+pythonw.exe pid: 4136 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\porc
+   B4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   CC: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  214: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  308: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  30C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  310: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  370: Section       \Windows\Theme3198277880
+  374: Section       \Sessions\1\Windows\Theme491472385
+  390: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  458: File  (R-D)   C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+pythonw.exe pid: 13372 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   88: File  (RW-)   C:\porc
+   B4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   C0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  230: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  2FC: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  31C: Section       \Sessions\1\Windows\Theme491472385
+  320: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  32C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  33C: Section       \Windows\Theme3198277880
+  384: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  450: File  (R-D)   C:\Windows\Fonts\StaticCache.dat
+  4F0: File  (R-D)   C:\Windows\SysWOW64\en-US\user32.dll.mui
+  4F4: Section       \Sessions\1\BaseNamedObjects\windows_shell_global_counters
+  520: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+  52C: Section       \BaseNamedObjects\__ComCatalogCache__
+  530: Section       \BaseNamedObjects\__ComCatalogCache__
+  568: File  (R-D)   C:\Windows\SysWOW64\en-US\comdlg32.dll.mui
+  574: Section       \BaseNamedObjects\windows_shell_global_counters
+  588: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  598: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  5A0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  5DC: File  (R-D)   C:\Windows\SysWOW64\en-US\windows.storage.dll.mui
+  5E4: File  (R-D)   C:\Windows\System32\en-US\shell32.dll.mui
+  618: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000003.db
+  624: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  62C: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  630: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000003.db
+  68C: File  (R-D)   C:\Windows\SysWOW64\en-US\propsys.dll.mui
+  690: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  6AC: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  6B0: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+  700: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+  720: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+  7C8: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db
+  840: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\thumbcache_16.db
+  848: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_32.db
+  8FC: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_idx.db
+  908: File  (RWD)   C:\Users\Admin\AppData\Local\Microsoft\Windows\Explorer\iconcache_16.db
+  910: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.864_none_4d607aef1b9d3066
+  9B0: File  (R--)   C:\Windows\Registration\R000000000001.clb
+------------------------------------------------------------------------------
+pythonw.exe pid: 15788 DESKTOP-V9GMTVL\Admin
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\porc
+   B4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  21C: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  334: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  33C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  348: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  5E0: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  5E4: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000003.db
+  620: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x0000000000000003.db
+  624: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  9DC: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  9F0: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  AF8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+  D98: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro
+  E90: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{8E5306AD-D77D-4502-8F1A-E501E68BD14E}.2.ver0x0000000000000003.db
+  E94: Section       \BaseNamedObjects\C:*ProgramData*Microsoft*Windows*Caches*{E70A6E0C-D6B0-47B9-BC9E-9718C0D32FF3}.2.ver0x0000000000000003.db
+------------------------------------------------------------------------------
+python.exe pid: 16200 DESKTOP-V9GMTVL\Admin
+   50: File  (RW-)   C:\Windows
+   94: File  (RW-)   C:\porc
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   D8: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  220: File  (RW-)   C:\Python27\Scripts\new1.txt
+  234: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui

@@ -1,0 +1,13 @@
+Comparing files Before.txt and AFTER.TXT
+***** Before.txt
+***** AFTER.TXT
+------------------------------------------------------------------------------
+python.exe pid: 16200 DESKTOP-V9GMTVL\Admin
+   50: File  (RW-)   C:\Windows
+   94: File  (RW-)   C:\porc
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   D8: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  220: File  (RW-)   C:\Python27\Scripts\new1.txt
+  234: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+*****
+
