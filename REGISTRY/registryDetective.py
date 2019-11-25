@@ -1,3 +1,7 @@
+#This is the code that manger the registry detective
+#This is one of the main codes and file in my poc because
+#here i check if new file added to the file explorer and then i
+#need to know how , when and what to do with this "virus"
 import time
 import timeit
 import os
@@ -9,8 +13,10 @@ from threading import Thread as wait
 import subprocess
 
 import re
+#The class finds me new file that created in my file explorer
+#i did use in moudle that called watchdog
 
-class DetectiveFiles(wait):
+class DetectiveFiles(wait): #wait means that this class working as theard
     
     def __init__(self,path):
       wait.__init__(self)
@@ -27,7 +33,8 @@ class DetectiveFiles(wait):
         except:
                 self.observer.stop()
         self.observer.join()
-            
+#this class finds me which key added or what chaneded in our regisry while
+#we have been runing the virus...maybe nothing change
 class TheEvent(hand):
     
     def __init__(self):
@@ -41,10 +48,8 @@ class TheEvent(hand):
              print event.event_type,": ",event.src_path
              print "####################################################"
              thefile=re.split(r"\\+",event.src_path)
-            
+            #onlt who created
              
-             
-            
              if event.src_path.find("py")!=-1:
                  y='python '+str(thefile[-1])
                  
@@ -92,9 +97,7 @@ def timer():
     os._exit(0)
         
 if __name__=="__main__":
-
- 
- 
+    #our path to follow----current user------
     myCmd = 'regedit /e /y "C:\myRegBefore.reg" HKEY_CURRENT_USER/'
     os.system(myCmd)
     
@@ -104,7 +107,7 @@ if __name__=="__main__":
     
     #c=threading.Thread(target=timer)
     #c.start()
-    
+    #i want both of them working at the same time!
     Files32.start()
     Reg.start()
     
