@@ -1,26 +1,18 @@
 
-import socket
+from socket import *
+host='10.0.2.15'
+port=11240
+b=1024
+addr=(host,port)
+tcp=socket(AF_INET,SOCK_STREAM)
+tcp.connect(addr)
 
+while 1:
+    data=raw_input('>')
+    if not data: break
+    tcp.send(data)
+    data=tcp.recv(1024)
+    if not data: break
+    print data
 
-def client_program():
-    host = '192.168.1.20.'  # as both code is running on same pc
-    port = 11238  # socket server port number
-
-    client_socket = socket.socket()  # instantiate
-    client_socket.connect((host, port))  # connect to the server
-
-    message = input(" -> ")  # take input
-
-    while message.lower().strip() != 'bye':
-        client_socket.send(message.encode())  # send message
-        data = client_socket.recv(1024).decode()  # receive response
-
-        print('Received from server: ' + data)  # show in terminal
-
-        message = input(" -> ")  # again take input
-
-    client_socket.close()  # close the connection
-
-
-if __name__ == '__main__':
-    client_program()
+tcp.close()
