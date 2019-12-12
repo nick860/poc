@@ -13,48 +13,8 @@ from threading import Thread as wait
 import subprocess
 
 import re
-#The class finds me new file that created in my file explorer
-#i did use in moudle that called watchdog
 
-class DetectiveFiles(wait): #wait means that this class working as theard
-    
-    def __init__(self,path):
-      wait.__init__(self)
-      self.my_observer = Observer()
-      self.path=path
-      
-    def run(self):
-        my_event_handler = TheEvent()
-        self.my_observer.schedule(my_event_handler, self.path, True)#go_recursively
-        self.my_observer.start()
-        try:
-            while True:
-                pass
-        except:
-                self.observer.stop()
-        self.observer.join()
-#this class finds me which key added or what chaneded in our regisry while
-#we have been runing the virus...maybe nothing change
-class TheEvent(hand):
-    
-    def __init__(self):
-        pass
-    def on_any_event(self,event):
-        if event.is_directory:
-             return None
-            
-        elif event.event_type=="created":
-             t0= time.clock()
-             print event.event_type,": ",event.src_path
-             print "####################################################"
-             thefile=re.split(r"\\+",event.src_path)
-            #onlt who created
-             
-             if event.src_path.find("py")!=-1:
-                 y='python '+str(thefile[-1])
-                 
-                 myCmd11 ="C:\Python27\Scripts\\"+str(thefile[-1])
-                 
+def Registry(myCmd11):
                  os.system(myCmd11)
                  print "running virus...."
                  time.sleep(3)
@@ -75,8 +35,7 @@ class TheEvent(hand):
                        words=input_file.read()
                    
              print "compring between files..."
-             t1 = time.clock() - t0
-             print("Time elapsed: ", t1 - t0)
+             
              time.sleep(3)      
              print "##############=RESULT=################"
              conclude=words.replace('\n',"")
@@ -86,12 +45,6 @@ class TheEvent(hand):
                 if len(i)<50:    
                   print "-------------CHANGE: ",i
              exit()   
-class RegDetective(wait):
-    pass
-    #f=os.system('cmd /k "ipconig"')Computer\HKEY_LOCAL_MACHINE\SYSTEM\WPA
-    #print f
-
-    
 def timer():
     time.sleep(5)
     os._exit(0)
@@ -100,16 +53,5 @@ if __name__=="__main__":
     #our path to follow----current user------
     myCmd = 'regedit /e /y "C:\myRegBefore.reg" HKEY_CURRENT_USER/'
     os.system(myCmd)
+    Registry(myCmd11)
     
-    Files32=DetectiveFiles("C:\Python27\Scripts")
-    Reg=RegDetective()
-    global filse
-    
-    #c=threading.Thread(target=timer)
-    #c.start()
-    #i want both of them working at the same time!
-    Files32.start()
-    Reg.start()
-    
-    Files32.join()
-    Reg.join()

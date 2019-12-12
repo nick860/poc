@@ -6,7 +6,7 @@ def handler(clientsock,addr):
     while 1:
         data = clientsock.recv(BUFSIZ)
         if not data:
-         print "ending communication with",addr
+         print  "ending communication with",addr
          break
         msg = 'echoed:... ' + data
         print msg
@@ -15,7 +15,7 @@ def handler(clientsock,addr):
 
 
 HOST = '192.168.1.20'
-PORT= 11238
+PORT= 11267
 print "SERVER PORT NICK: ------>",PORT,"<-------------"  
 BUFSIZ = 1024
 ADDR=(HOST,PORT)
