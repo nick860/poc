@@ -8,7 +8,6 @@ pythonw.exe pid: 10032 DESKTOP-V9GMTVL\Admin
   310: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   31C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  4F0: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 13232 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
@@ -19,7 +18,6 @@ pythonw.exe pid: 13232 DESKTOP-V9GMTVL\Admin
   320: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   324: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   32C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  4F0: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 13604 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
@@ -40,7 +38,6 @@ pythonw.exe pid: 1636 DESKTOP-V9GMTVL\Admin
   314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   318: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   320: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 21420 DESKTOP-V9GMTVL\Admin
    44: File          C:\Windows
@@ -51,7 +48,6 @@ pythonw.exe pid: 21420 DESKTOP-V9GMTVL\Admin
   30C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   310: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   318: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 14704 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
@@ -62,7 +58,6 @@ pythonw.exe pid: 14704 DESKTOP-V9GMTVL\Admin
   308: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   30C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   314: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 20116 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
@@ -73,7 +68,6 @@ pythonw.exe pid: 20116 DESKTOP-V9GMTVL\Admin
   30C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   310: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   318: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 2224 DESKTOP-V9GMTVL\Admin
    44: File          C:\Windows
@@ -84,7 +78,6 @@ pythonw.exe pid: 2224 DESKTOP-V9GMTVL\Admin
   324: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   328: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   330: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 2848 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
@@ -95,8 +88,6 @@ pythonw.exe pid: 2848 DESKTOP-V9GMTVL\Admin
   300: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   30C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  368: Section       \Windows\Theme2123159702
-  36C: Section       \Sessions\3\Windows\Theme2081876095
   37C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   44C: File          C:\Windows\Fonts\StaticCache.dat
 ------------------------------------------------------------------------------
@@ -109,8 +100,6 @@ pythonw.exe pid: 15924 DESKTOP-V9GMTVL\Admin
   2E8: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
   2F4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  33C: Section       \Windows\Theme2123159702
-  348: Section       \Sessions\3\Windows\Theme2081876095
   370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   444: File          C:\Windows\Fonts\StaticCache.dat
 ------------------------------------------------------------------------------
@@ -123,8 +112,6 @@ pythonw.exe pid: 9440 DESKTOP-V9GMTVL\Admin
   2D4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   2FC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   30C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  358: Section       \Windows\Theme2123159702
-  35C: Section       \Sessions\3\Windows\Theme2081876095
   374: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   44C: File          C:\Windows\Fonts\StaticCache.dat
 ------------------------------------------------------------------------------
@@ -137,11 +124,8 @@ pythonw.exe pid: 20092 DESKTOP-V9GMTVL\Admin
   2E8: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   30C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  31C: Section       \Windows\Theme2123159702
-  348: Section       \Sessions\3\Windows\Theme2081876095
   358: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   450: File          C:\Windows\Fonts\StaticCache.dat
-  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 12152 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
@@ -152,10 +136,7 @@ pythonw.exe pid: 12152 DESKTOP-V9GMTVL\Admin
   304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   308: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   310: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  35C: Section       \Windows\Theme2123159702
-  360: Section       \Sessions\3\Windows\Theme2081876095
   384: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  3A4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
   440: File          C:\Windows\Fonts\StaticCache.dat
 ------------------------------------------------------------------------------
 pythonw.exe pid: 16836 DESKTOP-V9GMTVL\Admin
@@ -167,7 +148,6 @@ pythonw.exe pid: 16836 DESKTOP-V9GMTVL\Admin
   2F0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   304: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
   310: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 21388 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
@@ -178,7 +158,6 @@ pythonw.exe pid: 21388 DESKTOP-V9GMTVL\Admin
   314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   318: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   320: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 pythonw.exe pid: 1512 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
@@ -189,8 +168,6 @@ pythonw.exe pid: 1512 DESKTOP-V9GMTVL\Admin
   218: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
   304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   308: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  358: Section       \Windows\Theme2123159702
-  35C: Section       \Sessions\3\Windows\Theme2081876095
   370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   448: File          C:\Windows\Fonts\StaticCache.dat
 ------------------------------------------------------------------------------
@@ -204,8 +181,6 @@ pythonw.exe pid: 1248 DESKTOP-V9GMTVL\Admin
   2E0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   30C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
   354: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  36C: Section       \Windows\Theme2123159702
-  370: Section       \Sessions\3\Windows\Theme2081876095
   440: File          C:\Windows\Fonts\StaticCache.dat
 ------------------------------------------------------------------------------
 pythonw.exe pid: 4264 DESKTOP-V9GMTVL\Admin
@@ -217,22 +192,12 @@ pythonw.exe pid: 4264 DESKTOP-V9GMTVL\Admin
   318: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   31C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   324: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  360: Section       \Windows\Theme2123159702
-  364: Section       \Sessions\3\Windows\Theme2081876095
   370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   454: File          C:\Windows\Fonts\StaticCache.dat
 ------------------------------------------------------------------------------
-python.exe pid: 7412 DESKTOP-V9GMTVL\Admin
-   50: File          C:\Windows
-   94: File          C:\Users\Admin\Desktop\virus\poc\OPEN
-   B0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   C4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  214: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-------------------------------------------------------------------------------
-python.exe pid: 21156 DESKTOP-V9GMTVL\Admin
+python.exe pid: 10448 DESKTOP-V9GMTVL\Admin
    50: File          C:\Windows
    94: File          C:\Users\Admin\Desktop\virus\poc\OPEN
    AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
    C0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  208: File          C:\Python27\Scripts\new1.txt
-  21C: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  228: File          C:\Windows\System32\en-US\KernelBase.dll.mui

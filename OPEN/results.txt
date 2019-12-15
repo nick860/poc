@@ -45,147 +45,142 @@ Comparing files Before.txt and AFTER.TXT
 *****
 
 ***** Before.txt
-   C8: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-  304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-***** AFTER.TXT
-   C8: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-  218: Section       \Windows\Theme2123159702
-  2FC: Section       \Sessions\3\Windows\Theme2081876095
-  304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-*****
-
-***** Before.txt
-  458: File          C:\Windows\Fonts\StaticCache.dat
+6a7
 ------------------------------------------------------------------------------
 ***** AFTER.TXT
-  458: File          C:\Windows\Fonts\StaticCache.dat
+6a7
   4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 *****
 
 ***** Before.txt
 6a7
-  388: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+------------------------------------------------------------------------------
+***** AFTER.TXT
+6a7
+  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** Before.txt
+6a7
+  37C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
 ***** AFTER.TXT
 6a7
   368: Section       \Windows\Theme2123159702
   36C: Section       \Sessions\3\Windows\Theme2081876095
-  388: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  37C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
 *****
 
 ***** Before.txt
-  458: File          C:\Windows\Fonts\StaticCache.dat
-------------------------------------------------------------------------------
+  314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
 ***** AFTER.TXT
-  458: File          C:\Windows\Fonts\StaticCache.dat
-  50C: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
-------------------------------------------------------------------------------
+  314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  33C: Section       \Windows\Theme2123159702
+  348: Section       \Sessions\3\Windows\Theme2081876095
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
 *****
 
 ***** Before.txt
 6a7
-------------------------------------------------------------------------------
+  374: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
 ***** AFTER.TXT
 6a7
+  358: Section       \Windows\Theme2123159702
+  35C: Section       \Sessions\3\Windows\Theme2081876095
+  374: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+*****
+
+***** Before.txt
+6a7
+  358: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+***** AFTER.TXT
+6a7
+  31C: Section       \Windows\Theme2123159702
+  348: Section       \Sessions\3\Windows\Theme2081876095
+  358: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+*****
+
+***** Before.txt
+  450: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+***** AFTER.TXT
+  450: File          C:\Windows\Fonts\StaticCache.dat
   4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
 ------------------------------------------------------------------------------
 *****
 
 ***** Before.txt
 6a7
-------------------------------------------------------------------------------
+  384: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  440: File          C:\Windows\Fonts\StaticCache.dat
 ***** AFTER.TXT
 6a7
-  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
-------------------------------------------------------------------------------
-*****
-
-***** Before.txt
-  31C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  438: File          C:\Windows\Fonts\StaticCache.dat
-***** AFTER.TXT
-  31C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  378: Section       \Windows\Theme2123159702
-  37C: Section       \Sessions\3\Windows\Theme2081876095
-  438: File          C:\Windows\Fonts\StaticCache.dat
-*****
-
-***** Before.txt
-6a7
-  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-***** AFTER.TXT
-6a7
-  32C: Section       \Sessions\3\Windows\Theme2081876095
-  330: Section       \Windows\Theme2123159702
-  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-*****
-
-***** Before.txt
-  438: File          C:\Windows\Fonts\StaticCache.dat
-------------------------------------------------------------------------------
-***** AFTER.TXT
-  438: File          C:\Windows\Fonts\StaticCache.dat
-  4E4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
-------------------------------------------------------------------------------
-*****
-
-***** Before.txt
-  2EC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  318: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e
-***** AFTER.TXT
-  2EC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  314: Section       \Windows\Theme2123159702
-  318: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e
-*****
-
-***** Before.txt
-6a7
-  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-***** AFTER.TXT
-6a7
-  32C: Section       \Sessions\3\Windows\Theme2081876095
-  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-*****
-
-***** Before.txt
-  338: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  438: File          C:\Windows\Fonts\StaticCache.dat
-***** AFTER.TXT
-  338: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   35C: Section       \Windows\Theme2123159702
   360: Section       \Sessions\3\Windows\Theme2081876095
-  438: File          C:\Windows\Fonts\StaticCache.dat
+  384: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  3A4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
+  440: File          C:\Windows\Fonts\StaticCache.dat
+*****
+
+***** Before.txt
+  310: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+------------------------------------------------------------------------------
+***** AFTER.TXT
+  310: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
 *****
 
 ***** Before.txt
 6a7
-  384: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+------------------------------------------------------------------------------
 ***** AFTER.TXT
 6a7
+  4F4: Section       \Sessions\3\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** Before.txt
+  308: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+***** AFTER.TXT
+  308: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  358: Section       \Windows\Theme2123159702
+  35C: Section       \Sessions\3\Windows\Theme2081876095
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+*****
+
+***** Before.txt
+  354: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  440: File          C:\Windows\Fonts\StaticCache.dat
+***** AFTER.TXT
+  354: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   36C: Section       \Windows\Theme2123159702
   370: Section       \Sessions\3\Windows\Theme2081876095
-  384: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  440: File          C:\Windows\Fonts\StaticCache.dat
 *****
 
 ***** Before.txt
 6a7
-  37C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
 ***** AFTER.TXT
 6a7
-  368: Section       \Windows\Theme2123159702
-  36C: Section       \Sessions\3\Windows\Theme2081876095
-  37C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  360: Section       \Windows\Theme2123159702
+  364: Section       \Sessions\3\Windows\Theme2081876095
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
 *****
 
 ***** Before.txt
 ***** AFTER.TXT
 ------------------------------------------------------------------------------
-python.exe pid: 8596 DESKTOP-V9GMTVL\Admin
+python.exe pid: 21156 DESKTOP-V9GMTVL\Admin
    50: File          C:\Windows
    94: File          C:\Users\Admin\Desktop\virus\poc\OPEN
    AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   D8: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  204: File          C:\Python27\Scripts\new.txt
-  214: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+   C0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  208: File          C:\Python27\Scripts\new1.txt
+  21C: File          C:\Windows\System32\en-US\KernelBase.dll.mui
 *****
 

@@ -59,30 +59,6 @@ pythonw.exe pid: 14704 DESKTOP-V9GMTVL\Admin
   30C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   314: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
 ------------------------------------------------------------------------------
-pythonw.exe pid: 19692 DESKTOP-V9GMTVL\Admin
-   40: File          C:\Windows
-   84: File          C:\Users\Admin\Desktop
-   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   C8: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-  304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  308: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  320: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  378: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  458: File          C:\Windows\Fonts\StaticCache.dat
-------------------------------------------------------------------------------
-pythonw.exe pid: 17980 DESKTOP-V9GMTVL\Admin
-   40: File          C:\Windows
-   84: File          C:\Users\Admin\Desktop
-   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  214: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-  310: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  31C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  388: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  458: File          C:\Windows\Fonts\StaticCache.dat
-------------------------------------------------------------------------------
 pythonw.exe pid: 20116 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
    84: File          C:\Users\Admin\Desktop
@@ -103,66 +79,6 @@ pythonw.exe pid: 2224 DESKTOP-V9GMTVL\Admin
   328: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   330: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
 ------------------------------------------------------------------------------
-pythonw.exe pid: 2792 DESKTOP-V9GMTVL\Admin
-   40: File          C:\Windows
-   84: File          C:\Users\Admin\Desktop
-   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   C4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  224: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-  300: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  30C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  31C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  438: File          C:\Windows\Fonts\StaticCache.dat
-------------------------------------------------------------------------------
-pythonw.exe pid: 3568 DESKTOP-V9GMTVL\Admin
-   40: File          C:\Windows
-   84: File          C:\Users\Admin\Desktop\virus\poc\OPEN
-   9C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   B0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  214: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-  314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  318: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  320: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  438: File          C:\Windows\Fonts\StaticCache.dat
-------------------------------------------------------------------------------
-pythonw.exe pid: 21396 DESKTOP-V9GMTVL\Admin
-   40: File          C:\Windows
-   84: File          C:\Users\Admin\Desktop\virus\poc\REGISTRY
-   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  1FC: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-  200: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  2EC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  318: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  448: File          C:\Windows\Fonts\StaticCache.dat
-------------------------------------------------------------------------------
-pythonw.exe pid: 17044 DESKTOP-V9GMTVL\Admin
-   40: File          C:\Windows
-   84: File          C:\Users\Admin\Desktop\virus\poc\OPEN
-   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  1FC: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-  220: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  2E4: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  2F0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  338: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  438: File          C:\Windows\Fonts\StaticCache.dat
-------------------------------------------------------------------------------
-pythonw.exe pid: 10844 DESKTOP-V9GMTVL\Admin
-   40: File          C:\Windows
-   84: File          C:\Users\Admin\Desktop\virus\poc\REGISTRY
-   9C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   B0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  200: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-  2E0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  2EC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  30C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
-  384: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  434: File          C:\Windows\Fonts\StaticCache.dat
-------------------------------------------------------------------------------
 pythonw.exe pid: 2848 DESKTOP-V9GMTVL\Admin
    40: File          C:\Windows
    84: File          C:\Users\Admin\Desktop\virus\poc\OPEN
@@ -175,9 +91,113 @@ pythonw.exe pid: 2848 DESKTOP-V9GMTVL\Admin
   37C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
   44C: File          C:\Windows\Fonts\StaticCache.dat
 ------------------------------------------------------------------------------
-python.exe pid: 13808 DESKTOP-V9GMTVL\Admin
+pythonw.exe pid: 15924 DESKTOP-V9GMTVL\Admin
+   44: File          C:\Windows
+   88: File          C:\Users\Admin\Desktop\virus\poc\PORTS
+   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  1FC: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  2E8: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  2F4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  444: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+pythonw.exe pid: 9440 DESKTOP-V9GMTVL\Admin
+   40: File          C:\Windows
+   84: File          C:\Users\Admin\Desktop\virus\poc\PORTS
+   9C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   B0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  200: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  2D4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  2FC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  30C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  374: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  44C: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+pythonw.exe pid: 20092 DESKTOP-V9GMTVL\Admin
+   40: File          C:\Windows
+   84: File          C:\Users\Admin\Desktop\virus\poc\PORTS
+   9C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   B0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  1FC: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  2E8: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  30C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  358: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  450: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+pythonw.exe pid: 12152 DESKTOP-V9GMTVL\Admin
+   40: File          C:\Windows
+   84: File          C:\Users\Admin\Desktop\virus\poc\OPEN
+   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  1FC: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  308: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  310: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  384: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  440: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+pythonw.exe pid: 16836 DESKTOP-V9GMTVL\Admin
+   40: File          C:\Windows
+   88: File          C:\Users\Admin\Desktop\virus\poc\PORTS
+   98: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+   A0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   B4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  2F0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  304: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  310: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+------------------------------------------------------------------------------
+pythonw.exe pid: 21388 DESKTOP-V9GMTVL\Admin
+   40: File          C:\Windows
+   84: File          C:\Users\Admin\Desktop\virus\poc\PORTS
+   9C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   B0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  1FC: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  314: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  318: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  320: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+------------------------------------------------------------------------------
+pythonw.exe pid: 1512 DESKTOP-V9GMTVL\Admin
+   40: File          C:\Windows
+   84: File          C:\Users\Admin\Desktop\virus\poc\OPEN
+   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  214: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  218: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  308: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  448: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+pythonw.exe pid: 1248 DESKTOP-V9GMTVL\Admin
+   40: File          C:\Windows
+   84: File          C:\Users\Admin\Desktop\virus\poc\OPEN
+   9C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   B0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  200: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  230: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  2E0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  30C: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  354: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  440: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+pythonw.exe pid: 4264 DESKTOP-V9GMTVL\Admin
+   40: File          C:\Windows
+   84: File          C:\Users\Admin\Desktop\virus\poc\PORTS
+   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  204: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  318: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  31C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  324: File          C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17763.864_none_58922fed78a9e6a7
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  454: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+python.exe pid: 21472 DESKTOP-V9GMTVL\Admin
    50: File          C:\Windows
    94: File          C:\Users\Admin\Desktop\virus\poc\OPEN
    B0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
    C4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  220: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  21C: File          C:\Windows\System32\en-US\KernelBase.dll.mui

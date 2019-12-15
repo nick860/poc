@@ -6,11 +6,6 @@ import time
 import timeit
 import os
 import sys
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler as hand
-from watchdog.events import PatternMatchingEventHandler as listen
-from threading import Thread as wait
-import subprocess
 import re
 def Registry(myCmd11):
              os.system(myCmd11)
