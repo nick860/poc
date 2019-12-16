@@ -51,7 +51,7 @@ class TheEvent(hand):
              thefile=event.src_path
              
   
-port = 60008                 # Reserve a port for your service.
+port = 60011               # Reserve a port for your service.
 s = socket.socket()             # Create a socket object
 host = socket.gethostname()     # Get local machine name
 s.bind((host, port))            # Bind to the port
