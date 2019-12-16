@@ -26,13 +26,15 @@ def checking():
     global Before,After
     for x in range(0,len(Before)-1):
         if Before[x]!=After[x] and After[x][31:].find('192.168.1.20')!=-1:
-            print After[x]
-            print InBlackList(After[x][31:])
-            
-    for x in range(len(Before)-1,len(After)-1):
-        
+            if InBlackList(After[x][31:]):
+                print InBlackList(After[x][31:])
+                mydata= After[x][-8:]
+                portKill=re.findall("[0-9]+",mydata)
+                words=subprocess.check_output('taskkill /PID '+portKill[0]+" /F",shell=True)
+                print "Killed the new port successfuly!"
+                  
+    for x in range(len(Before)-1,len(After)-1):       
         if After[x][31:].find('192.168.1.20')!=-1:
-            print After[x]
             print InBlackList(After[x][31:])
             
 def InBlackList(portDest):
@@ -42,9 +44,7 @@ def InBlackList(portDest):
 
 
 def Registry(myCmd11):
-             global v
-             while v==False:
-               pass
+
              print "running virus...."
              time.sleep(6)
              myCmd = 'regedit /e /y "C:\myRegAfter.reg" HKEY_CURRENT_USER\Printers'
@@ -54,7 +54,8 @@ def Registry(myCmd11):
              print "compring between files..."
              with open(r"C:\Users\Admin\Desktop\virus\poc\OPEN\result.txt",'r') as input_file:
                        words=input_file.read()
-             time.sleep(3)
+                       #print words
+             
              words=words.replace("\n","")
              AfterH=re.findall("MYREGAFTER.REG.*?\*{5}",words)
              try:
@@ -62,7 +63,7 @@ def Registry(myCmd11):
                    if len(AfterH[o])>15:
                        print AfterH[o]
              except:
-               print "no change in registry"
+               pass
              exit()
 
 
@@ -80,61 +81,76 @@ def CheckBeforeHandle():
 #AfterH the virus did the handle on his files  
 def CheckAfterHandle():
    os.system('handle -p python>AfterH.txt')
-   time.sleep(3)   
+      
 
 #with to comman line fc (file comper) we can see the differents between
 #the two file text --in our case i did filter on python process!
 def findOut():    
-    time.sleep(1)
-    os.system('handle -p python>AfterH.txt')
-    time.sleep(3)   
-    try: #in our example we need to see changes
-      w=subprocess.check_output('fc BeforeH.txt AfterH.txt > results.txt',shell=True)
-    except:
-        time.sleep(1)    
+    os.system('fc BeforeH.txt AfterH.txt > results.txt')
+    try:
+        time.sleep(1)
+       
         with open(r"C:\Users\Admin\Desktop\virus\poc\OPEN\results.txt",'r') as input_file:
               words=input_file.read()
         words=words.replace("\n","")
-        BeforeH=re.findall("\*+.*?BeforeH.txt.*?AfterH.TXT",words)
-        AfterH=re.findall("\*\sAFTER.TXT.*?Befor.txt|\*\sAFTER.TXT.*?\*{5}",words)
-        beforefiles=[]
-        afterfiles=[]
         
-        for files in BeforeH:
-            listToAdd=re.findall("\w+:.*?C:.*?\s",files)
-            beforefiles=beforefiles+listToAdd
-        for files in AfterH:
-            listToAdd=re.findall("\w+:.*?C:.*?\s",files)
-            afterfiles=afterfiles+listToAdd
-        save=0 #somtimes we will get None in i
+        while 1:
+            if words.find("C:\Python27\Scripts")!=-1:
+               words= words[words.find("C:\Python27\Scripts"):]
+               save=words[:words.find(" ")]
+               
+               print save
+               words=words[words.find(" "):]
+            else:
+                break
+    except:
+        raise
     
-        i=0
-        for i in range(len(beforefiles)):
-            if afterfiles[i]!=beforefiles[i] and afterfiles[i].find(" C:\Python27\Scripts")!=-1:
-                print "####################################"
-                print "The file that opend by another process:  "
-                print afterfiles[i]
-        for i in range(len(beforefiles),len(afterfiles)):
-                if afterfiles[i].find(" C:\Python27\Scripts")!=-1:
-                  print afterfiles[i]
-    print "there is no change"
+    
+def take_ports():
+   
+    t1 = threading.Thread(target=OpenVirus, args=[])
+    t1.start()
+    time.sleep(1)
+    
+    CheckAfterHandle()
+    t0 = threading.Thread(target=Registry, args=["virus.py"])
+    t0.start()
+    time.sleep(1)
+    
+    t2 = threading.Thread(target=CheckAfter, args=[])
+    t2.start()
+    time.sleep(1)
+
+    t3 = threading.Thread(target=checking(), args=[])
+    t3.start()
+    
+   
+    t4 = threading.Thread(target=findOut, args=[])
+    t4.start()   
     
 if __name__=="__main__":
     
-    #myCmd = 'regedit /e /y "C:\myRegBefore.reg" HKEY_CURRENT_USER\Printers'
-    #os.system(myCmd)
+    myCmd = 'regedit /e /y "C:\myRegBefore.reg" HKEY_CURRENT_USER\Printers'
+    os.system(myCmd)
     #global v
     #v=False
+    CheckBeforeHandle()
+    CheckBefore()
     global Before,After
     Before=[]
     After=[]
-    #global BeforeH,AfterH
-    #BeforeH=[]
-   # AfterH=[]
-    CheckBefore()
-    #CheckBeforeHandle()
+    take_ports()
+    time.sleep(3)
+    
+    global BeforeH,AfterH
+    BeforeH=[]
+    AfterH=[]  
+    
+    #
+    
     #time.sleep(1)
-    #t0 = threading.Thread(target=Registry, args=["virus.py"])
+  
     #t1 = threading.Thread(target=OpenVirus, args=[])
     """t2 = threading.Thread(target=CheckAfterHandle, args=[])
     t3 = threading.Thread(target=CheckAfter, args=[])
@@ -149,17 +165,7 @@ if __name__=="__main__":
    
     #t0.start()
     """
-    t1 = threading.Thread(target=OpenVirus, args=[])
-    t1.start()
-    time.sleep(1)
     
-    t2 = threading.Thread(target=CheckAfter, args=[])
-    t2.start()
-    time.sleep(1)
-
-    t3 = threading.Thread(target=checking(), args=[])
-    t3.start()
-    print "no change"
     
     """global reg, v
     v=False
