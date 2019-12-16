@@ -51,7 +51,7 @@ class TheEvent(hand):
              thefile=event.src_path
              
   
-port = 60011               # Reserve a port for your service.
+port = 60020            # Reserve a port for your service.
 s = socket.socket()             # Create a socket object
 host = socket.gethostname()     # Get local machine name
 s.bind((host, port))            # Bind to the port
@@ -61,22 +61,21 @@ thefile=None
 print 'Server listening....'
 Files32=DetectiveFiles("C:\Python27\Scripts")
 Files32.start()
-
+conn, addr = s.accept()     # Establish connection with client.
+print 'Got connection from', addr
 while True:
-    conn, addr = s.accept()     # Establish connection with client.
-    print 'Got connection from', addr
+    
     data = conn.recv(1024)
     print('Server received', repr(data))
     while thefile==None:
         pass
     f = open(thefile,'rb')
-    l = f.read(1024)
-    while (l):
-        conn.send(l)
-        print('Sent ',repr(l))
-        l = f.read(1024)
+    l = f.read(10000)
+    conn.send(l)
+    print('Sent ',repr(l))
     f.close()
-
+    thefile=None
     print('Done sending')
-    conn.close()
+    
+conn.close()
      
