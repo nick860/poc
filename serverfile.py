@@ -51,15 +51,15 @@ class TheEvent(hand):
              thefile=event.src_path
              
   
-port = 60020            # Reserve a port for your service.
+port = 60034          # Reserve a port for your service.
 s = socket.socket()             # Create a socket object
-host = socket.gethostname()     # Get local machine name
-s.bind((host, port))            # Bind to the port
+host = "192.168.1.20"     # Get local machine name
+s.bind((host,  port))            # Bind to the port
 s.listen(5)                     # Now wait for client connection.
 global thefile
 thefile=None
 print 'Server listening....'
-Files32=DetectiveFiles("C:\Python27\Scripts")
+Files32=DetectiveFiles("C:\Users\Admin\Desktop")
 Files32.start()
 conn, addr = s.accept()     # Establish connection with client.
 print 'Got connection from', addr
