@@ -1,0 +1,42 @@
+------------------------------------------------------------------------------
+pythonw.exe pid: 4948 WINDEV1907EVAL\user
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\Users\user\Desktop\poc-poc\OPEN
+   B0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  210: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  310: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  314: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  318: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.18362.356_none_71d539095ae5ad3b
+  358: Section       \Windows\Theme550635021
+  35C: Section       \Sessions\1\Windows\Theme1045712883
+  374: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  440: File  (R-D)   C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+pythonw.exe pid: 4688 WINDEV1907EVAL\user
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\Users\user\Desktop\poc-poc
+   B0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  210: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  318: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  31C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  320: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.18362.356_none_71d539095ae5ad3b
+------------------------------------------------------------------------------
+pythonw.exe pid: 5424 WINDEV1907EVAL\user
+   40: File  (RW-)   C:\Windows
+   84: File  (RW-)   C:\Users\user\Desktop\poc-poc
+   B0: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  210: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui
+  318: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  31C: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  320: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.18362.356_none_71d539095ae5ad3b
+  52C: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+python.exe pid: 5204 WINDEV1907EVAL\user
+   50: File  (RW-)   C:\Windows
+   94: File  (RW-)   C:\Users\user\Desktop\poc-poc\OPEN
+   C4: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+   D8: File  (RW-)   C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9619_none_508d9c7abcbd32b6
+  218: File  (R-D)   C:\Windows\System32\en-US\KernelBase.dll.mui

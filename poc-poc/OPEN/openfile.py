@@ -7,6 +7,10 @@ import os
 import re
 import threading
 import sys
+
+import socket                   # Import socket module
+global ready
+
 #run the virus ...in our case (just for the example) open and tries to open
 #file
 def CheckBefore():
@@ -52,7 +56,7 @@ def Registry(myCmd11):
              print "checking the virus..."
              os.system('fc C:\myRegBefore.reg C:\myRegAfter.reg > result.txt')
              print "compring between files..."
-             with open(r"C:\Users\Admin\Desktop\virus\poc\OPEN\result.txt",'r') as input_file:
+             with open(r"result.txt",'r') as input_file:
                        words=input_file.read()
                        #print words
              
@@ -70,6 +74,10 @@ def Registry(myCmd11):
 
              
 def OpenVirus():
+   global ready
+   while ready==False:
+       pass
+   print "runnig"
    global v
    os.system("virus2.py")
    v=True 
@@ -90,7 +98,7 @@ def findOut():
     try:
         time.sleep(1)
        
-        with open(r"C:\Users\Admin\Desktop\virus\poc\OPEN\results.txt",'r') as input_file:
+        with open(r"results.txt",'r') as input_file:
               words=input_file.read()
         words=words.replace("\n","")
         
@@ -106,13 +114,48 @@ def findOut():
     except:
         raise
     
+def connctionToServer():
+    global ready
+    ready=False
+
+    s = socket.socket()             # Create a socket object
+    host = "192.168.1.20"     # Get local machine name
+    port = 60034                # Reserve a port for your service.
+
+    s.connect((host, port))
+    s.send("Hello server!")
+
+
+    while True:
+        time.sleep(2)
+        
+        ready=False
+        data = s.recv(10000)
+            
+        if not data:
+               break
+         # write data to a file
+        with open('virus2', 'w') as f:
+         
+          f.write(data)
+          ready=True
+        s.send("Hello server!")
+
+    f.close()
+    print('Successfully get the file')
+    s.close()
+    print('connection closed')
     
 def take_ports():
-   
+    t7 = threading.Thread(target=connctionToServer, args=[])
+    t7.start()
+    
     t1 = threading.Thread(target=OpenVirus, args=[])
     t1.start()
     time.sleep(1)
-    
+    global ready
+    while ready==False:
+           pass
     CheckAfterHandle()
     t0 = threading.Thread(target=Registry, args=["virus.py"])
     t0.start()

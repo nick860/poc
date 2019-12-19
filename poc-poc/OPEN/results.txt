@@ -1,0 +1,3 @@
+Comparing files BeforeH.txt and AFTERH.TXT
+FC: no differences encountered
+
