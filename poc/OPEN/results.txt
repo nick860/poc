@@ -1,0 +1,217 @@
+Comparing files BeforeH.txt and AFTERH.TXT
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4E8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4E8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+  334: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  438: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+  334: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  364: Section       \Windows\Theme842843997
+  368: Section       \Sessions\1\Windows\Theme2915699388
+  438: File          C:\Windows\Fonts\StaticCache.dat
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+  374: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+***** AFTERH.TXT
+845
+  348: Section       \Windows\Theme842843997
+  34C: Section       \Sessions\1\Windows\Theme2915699388
+  374: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+*****
+
+***** BeforeH.txt
+  438: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+  438: File          C:\Windows\Fonts\StaticCache.dat
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  434: File          C:\Windows\Fonts\StaticCache.dat
+***** AFTERH.TXT
+845
+  354: Section       \Windows\Theme842843997
+  358: Section       \Sessions\1\Windows\Theme2915699388
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  390: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+  434: File          C:\Windows\Fonts\StaticCache.dat
+*****
+
+***** BeforeH.txt
+  3B8: File          C:\Users\Admin\Desktop\virus2.py - Copy.py
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+  3B8: File          C:\Users\Admin\Desktop\virus2.py - Copy.py
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  390: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  390: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+  3B8: File          C:\Users\Admin\Desktop\virus2.py - Copy (9).py
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+  3B8: File          C:\Users\Admin\Desktop\virus2.py - Copy (9).py
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+  35C: File          C:\Users\Admin\Desktop\virus2.py - Copy (11).py
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+  35C: File          C:\Users\Admin\Desktop\virus2.py - Copy (11).py
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+845
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+845
+  4F8: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
