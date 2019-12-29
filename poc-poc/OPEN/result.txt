@@ -1,0 +1,3 @@
+Comparing files C:\myRegBefore.reg and C:\MYREGAFTER.REG
+FC: no differences encountered
+
