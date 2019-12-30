@@ -1,22 +1,13 @@
 Comparing files BeforeH.txt and AFTERH.TXT
 ***** BeforeH.txt
-845
-  39C: File          C:\Users\Admin\Desktop
-------------------------------------------------------------------------------
-***** AFTERH.TXT
-845
-------------------------------------------------------------------------------
-*****
-
-***** BeforeH.txt
 ***** AFTERH.TXT
 ------------------------------------------------------------------------------
-python.exe pid: 15192 DESKTOP-V9GMTVL\Admin
+python.exe pid: 3760 DESKTOP-V9GMTVL\Admin
    50: File          C:\Windows
    94: File          C:\Users\Admin\Desktop\virus\poc\poc-poc\OPEN
-   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   C0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  230: File          C:\Python27\Scripts\new8.txt
-  23C: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   9C: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+   B8: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  238: File          C:\Python27\Scripts\new8.txt
 *****
 

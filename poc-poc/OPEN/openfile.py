@@ -8,11 +8,14 @@ try:
     import re
     import threading
     import sys
-
     import socket                   # Import socket module
     global ready
     from beautifultable import BeautifulTable
+    mutex = threading.Semaphore(1)
     
+    def putInTable(table,i, name,arr):
+        for x in range(i):
+            table[x][name]=arr[x]
     def printResult():
         global Reg, Han, Port
         table = BeautifulTable()
@@ -22,14 +25,10 @@ try:
         for i in range(lent):
                 table.append_row(["No."+str(i+1), "", "",""])
 
-        for i in range(len(Reg)):  
-                table[i]["Registry changes"]=Reg[i]
-                                 
-        for i in range(len(Han)):  
-                table[i]["Files in use"]=Han[i]
-                                 
-        for i in range(len(Port)):  
-                table[i]["Ports connection"]=Port[i]
+        makeName=["Registry changes","Files in use","Ports connection"]
+        arrs=[Reg,Han,Port]
+        for x in range(3):
+            putInTable(table,len(arrs[x]),makeName[x],arrs[x])
                                  
         print table    
     #run the virus ...in our case (just for the example) open and tries to open
@@ -37,7 +36,6 @@ try:
     def CheckBefore():
         global Before,After
         os.system('netstat -ano > befe.txt')
-        time.sleep(2)
         with open(r"befe.txt",'r') as input_file:
                            words=input_file.read()
         Before=re.findall('[A-Z]{3}.*?LISTENING+.*?[0-9]+|.*?ESTABLISHED+.*?[0-9]+',words)
@@ -45,9 +43,9 @@ try:
     #for this i check the netstat after the new port created 
     def CheckAfter():
         global Before,After
-        
+        mutex.acquire()
         os.system('netstat -ano > afae.txt')
-        time.sleep(2)
+        mutex.release()
         with open(r"afae.txt",'r') as input_file:
                            words=input_file.read()
         After=re.findall('[A-Z]{3}.*?LISTENING+.*?[0-9]+|.*?ESTABLISHED+.*?[0-9]+',words)
@@ -74,8 +72,10 @@ try:
     def Registry():
             global Reg
             myCmd = 'regedit /e /y "C:\myRegAfter.reg" HKEY_CURRENT_USER\Printers'
+            mutex.acquire()
             os.system(myCmd)
             os.system('fc C:\myRegBefore.reg C:\myRegAfter.reg > result.txt')
+            mutex.release()
             with open(r"result.txt",'r') as input_file:
                     words=input_file.read()
                     #print words
@@ -100,21 +100,24 @@ try:
        v=True 
     #checks the handle that the process looking on 
     def CheckBeforeHandle():
+        
        os.system('handle -p python>BeforeH.txt')
 
     #AfterH the virus did the handle on his files  
     def CheckAfterHandle():
+       mutex.acquire() 
        os.system('handle -p python>AfterH.txt')
-       return 0   
+       mutex.release()
+       findOut()   
 
     #with to comman line fc (file comper) we can see the differents between
     #the two file text --in our case i did filter on python process!
     def findOut():
         global Han
+        mutex.acquire()
         os.system('fc BeforeH.txt AfterH.txt > results.txt')
-        try:
-            time.sleep(1)
-           
+        mutex.release()
+        try:      
             with open(r"results.txt",'r') as input_file:
                   words=input_file.read()
             words=words.replace("\n","")
@@ -128,8 +131,7 @@ try:
                 else:
                     break
         except:
-            raise
-        
+            raise        
     def connctionToServer():
         global ready
         s = socket.socket()             # Create a socket object
@@ -139,7 +141,6 @@ try:
         s.connect((host, port))
         s.send("Hello server!")
         while True:
-            time.sleep(2)
             data = s.recv(10000)
                 
             if not data:
@@ -151,35 +152,24 @@ try:
               ready=True
             s.send("Hello server!")
         f.close()
-        s.close()
-        
+        s.close()        
     def Test():
-        global Reg, Han, Port
-        t7 = threading.Thread(target=connctionToServer, args=[])
-        t7.start()
+        global Reg, Han, Port, ready
+        t0 = threading.Thread(target=connctionToServer, args=[]).start()  
+        t1 = threading.Thread(target=OpenVirus, args=[]).start()
         
-        t1 = threading.Thread(target=OpenVirus, args=[])
-        t1.start()
-        time.sleep(1)
-        global ready
         while ready==False:
                pass
-        
-        t0 = threading.Thread(target=Registry, args=[])
-        t0.start()
-        time.sleep(2)
-        
-        CheckAfterHandle()
-        
-        t2 = threading.Thread(target=CheckAfter, args=[])
-        t2.start()
-        time.sleep(2)
-        
-       
-        t4 = threading.Thread(target=findOut, args=[])
-        t4.start()
+        start = time.clock()
+        t2 = threading.Thread(target=Registry, args=[]).start()
+        time.sleep(1)
+        CheckAfterHandle()       
+        t3 = threading.Thread(target=CheckAfter, args=[]).start()      
+        t4 = threading.Thread(target=findOut, args=[]).start()
 
-        time.sleep(4)
+        time.sleep(1)
+        end = time.clock()
+        print end - start
         printResult()
         exit()                         
     if __name__=="__main__":
@@ -203,7 +193,6 @@ try:
         global BeforeH,AfterH
         BeforeH=[]
         AfterH=[]  
-
 
 except:
     exit()

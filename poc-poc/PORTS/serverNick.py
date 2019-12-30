@@ -15,7 +15,7 @@ def handler(clientsock,addr):
 
 
 HOST = '192.168.1.20'
-PORT= 11305
+PORT= 11308
 print "SERVER PORT NICK: ------>",PORT,"<-------------"  
 BUFSIZ = 1024
 ADDR=(HOST,PORT)

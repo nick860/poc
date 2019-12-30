@@ -12,11 +12,9 @@ from watchdog.events import FileSystemEventHandler as hand
 from watchdog.events import PatternMatchingEventHandler as listen
 from threading import Thread as wait
 import subprocess
-
 import re
 #The class finds me new file that created in my file explorer
 #i did use in moudle that called watchdog
-
 class DetectiveFiles(wait): #wait means that this class working as theard
     
     def __init__(self,path):

@@ -16,7 +16,7 @@ for i in range(info[0]):
                   
 
 host='192.168.1.20'
-port=11305
+port=11308
 b=1024
 addr=(host,port)
 tcp=socket(AF_INET,SOCK_STREAM)
