@@ -1,7 +1,7 @@
 
 from socket import *
 host='192.168.1.20'
-port=11245
+port=11277
 b=1024
 addr=(host,port)
 tcp=socket(AF_INET,SOCK_STREAM)

@@ -1,0 +1,3 @@
+ssdeep,1.1--blocksize:hash:hash,filename
+
+24:VNGXCiJgUDddHo6imjGi+gUDddHo6imjGi+:TGX5gQfHo6imjGi+gQfHo6imjGi+, "virus2.py"

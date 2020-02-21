@@ -1,13 +1,99 @@
 Comparing files BeforeH.txt and AFTERH.TXT
 ***** BeforeH.txt
+  328: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  444: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+  328: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  350: Section       \Windows\Theme1459559931
+  354: Section       \Sessions\1\Windows\Theme1669625305
+  444: File          C:\Windows\Fonts\StaticCache.dat
+  4EC: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+0de2
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+0de2
+  4EC: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+0de2
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+***** AFTERH.TXT
+0de2
+  358: Section       \Windows\Theme1459559931
+  35C: Section       \Sessions\1\Windows\Theme1669625305
+  370: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+*****
+
+***** BeforeH.txt
+  448: File          C:\Windows\Fonts\StaticCache.dat
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+  448: File          C:\Windows\Fonts\StaticCache.dat
+  510: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
+  208: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  2F4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+***** AFTERH.TXT
+  208: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  2F0: Section       \Sessions\1\Windows\Theme1669625305
+  2F4: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+*****
+
+***** BeforeH.txt
+0de2
+  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+***** AFTERH.TXT
+0de2
+  32C: Section       \Windows\Theme1459559931
+  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+*****
+
+***** BeforeH.txt
+  200: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+***** AFTERH.TXT
+  200: File          C:\Windows\System32\en-US\KernelBase.dll.mui
+  2E8: Section       \Windows\Theme1459559931
+  304: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+*****
+
+***** BeforeH.txt
+0de2
+  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+***** AFTERH.TXT
+0de2
+  320: Section       \Sessions\1\Windows\Theme1669625305
+  36C: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+*****
+
+***** BeforeH.txt
+0de2
+------------------------------------------------------------------------------
+***** AFTERH.TXT
+0de2
+  510: Section       \Sessions\1\BaseNamedObjects\SessionImmersiveColorPreference
+------------------------------------------------------------------------------
+*****
+
+***** BeforeH.txt
 ***** AFTERH.TXT
 ------------------------------------------------------------------------------
-python.exe pid: 3760 DESKTOP-V9GMTVL\Admin
+python.exe pid: 16784 DESKTOP-V9GMTVL\Admin
    50: File          C:\Windows
-   94: File          C:\Users\Admin\Desktop\virus\poc\poc-poc\OPEN
-   98: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-   9C: File          C:\Windows\System32\en-US\KernelBase.dll.mui
-   B8: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
-  238: File          C:\Python27\Scripts\new8.txt
+   94: File          C:\Users\Admin\Music\poc-poc\OPEN
+   AC: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+   C0: File          C:\Windows\WinSxS\x86_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9518_none_508db366bcbd18c4
+  218: File          C:\Python27\Scripts\new8.txt
+  224: File          C:\Windows\System32\en-US\KernelBase.dll.mui
 *****
 

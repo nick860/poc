@@ -11,10 +11,34 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler as hand
 from watchdog.events import PatternMatchingEventHandler as listen
 from threading import Thread as wait
+from beautifultable import BeautifulTable
 import subprocess
+import pickle
 import re
 #The class finds me new file that created in my file explorer
 #i did use in moudle that called watchdog
+
+
+def putInTable(table,i, name,arr):
+    for x in range(i):
+        table[x][name]=arr[x]
+        
+def printResult(Reg, Han, Port):
+    table = BeautifulTable()
+    table.column_headers = ["Change No.","Registry changes", "Files in use", "Ports connection"]
+    lent=max(len(Reg),len(Han),len(Port))
+
+    for i in range(lent):
+             table.append_row(["No."+str(i+1), "", "",""])
+
+    makeName=["Registry changes","Files in use","Ports connection"]
+    arrs=[Reg,Han,Port]
+    for x in range(3):
+       putInTable(table,len(arrs[x]),makeName[x],arrs[x])
+        
+    print len(str(table))                        
+    print table
+  
 class DetectiveFiles(wait): #wait means that this class working as theard
     
     def __init__(self,path):
@@ -43,37 +67,45 @@ class TheEvent(hand):
         if event.is_directory:
              return None
             
-        elif event.event_type=="created" and event.src_path.find("poc-poc\OPEN")==-1:
-             print event.event_type,": ",event.src_path
-             print "####################################################"
-             thefile=event.src_path
-        else:
-            return None
+        elif event.event_type=="created":
+             thefile.append(event.src_path)
+             
   
-port = 60050        # Reserve a port for your service.
+port = 60077       # Reserve a port for your service.
 s = socket.socket()             # Create a socket object
 host = "192.168.1.20"     # Get local machine name
 s.bind((host,  port))            # Bind to the port
 s.listen(5)                     # Now wait for client connection.
 global thefile
-thefile=None
+thefile=[]
 print 'Server listening....'
 Files32=DetectiveFiles("C:\Users\Admin\Desktop")
 Files32.start()
+
 conn, addr = s.accept()     # Establish connection with client.
 print 'Got connection from', addr
 while True:
-    
     data = conn.recv(1024)
-    print('Server received', repr(data))
-    while thefile==None:
+    try:
+        my_list= pickle.loads(data)
+        try:
+            Reg=my_list[0]
+            Han=my_list[1]
+            Port=my_list[2]
+            printResult(Reg,Han,Port)
+        except:
+            raise
+    except:
         pass
-    f = open(thefile,'rb')
+    while len(thefile)==0:
+        pass
+    
+    f = open(thefile[-1],'rb')
+    print "scanning : " , thefile[-1]
     l = f.read(10000)
-    conn.send(l)
-    print('Sent ',repr(l))
+    conn.send(l) 
     f.close()
-    thefile=None
+    thefile=thefile[:-1]
     print('Done sending')
     
 conn.close()
